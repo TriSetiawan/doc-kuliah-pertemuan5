@@ -1,0 +1,19 @@
+Kita telah mengetahui bahwa shapefile adalah sebuah format data geospasial yang mempelajari tentang tata letak bumi yang
+selalu mengutamakan pemahaman spasial dengan kaidah dan esensi ilmu geografi. Misalnya kita tidak tahu bagaimana cara membuat
+shapefile, jadi pada pembahasan kali ini kita akan membuat shapefile.
+
+Berikut adalah perintah/script pada python untuk membuat sebuah shapefile :
+
+Membuat shapefile
+>> import shapefile
+>> a = shapefile.Writer (param) 
+>> a.poly  ( [x,y] , [v,w] )
+>> a.field ( ‘nama’ , ‘typedata’ , ‘90’ )
+>> a.record ( ‘isi’ )
+>> a.shp ( ‘namafile.shp’ )
+>> save ( ‘namafile’ )
+
+Kesimpulan :
+Jadi dengan aplikasi python kita tidak hanya dapat melakukan select/view yang telah ada tapi kita juga dapat membuat shapefile itu
+sendiri menggunakan aplikasi python.
+
